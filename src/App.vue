@@ -9,7 +9,7 @@
     data() {
       return {
         
-        
+
       }
     },
 
@@ -17,11 +17,16 @@
       
     },
 
+    components: {
+      AppTitle,
+    }
+
   }
 </script>
 
 <template>
   
+  <AppTitle></AppTitle>
 </template>
 
 <style></style>
